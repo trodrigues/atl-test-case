@@ -1,0 +1,25 @@
+{
+  "name": "atl-test-case",
+  "version": "0.1.0",
+  "description": "",
+  "private": true,
+  "dependencies": {
+    "typescript": "^2.3.2"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "3.1.3",
+    "babel-core": "6.18.2",
+    "babel-loader": "7.0.0",
+    "babel-preset-es2015": "6.14.0",
+    "babel-preset-react": "6.11.1",
+    "source-map-loader": "0.2.1",
+    "typescript": "2.3.2",
+    "webpack": "2.4.1",
+    "webpack-dev-server": "2.4.5"
+  },
+  "scripts": {
+    "clean": "rm -rf build",
+    "build": "NODE_ENV=production webpack -p",
+    "start": "NODE_ENV=development webpack-dev-server"
+  }
+}

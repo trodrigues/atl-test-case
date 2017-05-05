@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "outDir": "./build/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "es2015",
+        "target": "es2015",
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "allowUnreachableCode": true,
+        "jsx": "react"
+    },
+    "include": [
+        "./app.js"
+    ]
+}
